@@ -36,10 +36,14 @@
     flex-basis: calc((100% - 72px)/4);
 }
 .feature-icon-container{
-    width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    fill: rgba(244, 244, 253, 1);;
-    stroke: 1px solid rgba(142, 143, 153, 1);
+    background-color: rgba(244, 244, 253, 1);
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .feature-icon{
     display: block;
